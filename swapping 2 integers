@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a,b;
+printf("enter the numbers :");
+scanf("%d %d",&a,&b);
+printf("before swaping the numbers are: %d , %d",a,b);
+a=a-b;
+b=a+b;
+a=b-a;
+printf("after swaping the numbers are: %d , %d",a,b);
+return 0;
+}
